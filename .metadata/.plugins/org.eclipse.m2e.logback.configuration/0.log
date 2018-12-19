@@ -5850,3 +5850,8 @@ org.apache.maven.archetype.old.ArchetypeTemplateProcessingException: Directory I
 2018-12-18 13:33:28,407 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\InteractionProject\InteractionMiddleware\src\main\resources
 2018-12-18 13:33:28,410 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-12-18 13:33:28,410 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\InteractionProject\InteractionMiddleware\src\test\resources
+2018-12-19 12:32:54,248 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-12-19 12:32:59,585 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-19 12:32:59,586 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\InteractionProject\InteractionMiddleware\src\main\resources
+2018-12-19 12:32:59,588 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-19 12:32:59,589 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\InteractionProject\InteractionMiddleware\src\test\resources
