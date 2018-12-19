@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Collab-Portal</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-cookies.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="web/RouteConfig.js"></script>
+<script src="web/c_blog/BlogController.js"></script>
+<script src="web/c_user/UserController.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<body ng-app="myApp">
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					aria-expanded="false">
+					<span class="sr-only">Navbar</span> <span class="icon-bar"></span>
+					<span class="icon-bar"></span> <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Collabration-Portal</a>
+			</div>
+
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">Blog<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#/addBlog">Add Blog</a></li>
+							<li><a href="#/manageAllBlogs">Manage Blog</a></li>
+							<li><a href="#/showAllBlogs">Show All Blogs</a></li>
+						</ul>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">Forum<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Add Forum</a></li>
+							<li><a href="#">Manage Forum</a></li>
+							<li><a href="#">Show All Forums</a></li>
+						</ul>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">Job<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Add Job</a></li>
+							<li><a href="#">Manage Job</a></li>
+							<li><a href="#">Show All Job</a></li>
+						</ul></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#/login">LogIn</a></li>
+					<li><a href="#/register">SignUp</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div ng-view></div>
+</body>
+</html>

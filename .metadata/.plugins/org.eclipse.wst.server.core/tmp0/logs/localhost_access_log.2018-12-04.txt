@@ -1,0 +1,12 @@
+127.0.0.1 - - [04/Dec/2018:10:31:55 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/Dec/2018:10:31:57 +0530] "GET /InteractionFrontEnd/ HTTP/1.1" 404 1098
+0:0:0:0:0:0:0:1 - - [04/Dec/2018:10:31:57 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [04/Dec/2018:10:34:01 +0530] "GET /InteractionFrontEnd/ HTTP/1.1" 404 1098
+127.0.0.1 - - [04/Dec/2018:11:02:41 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/Dec/2018:11:02:42 +0530] "GET /InteractionFrontEnd/WEB-INF/views/index.html HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [04/Dec/2018:11:25:05 +0530] "GET /InteractionFrontEnd/ HTTP/1.1" 404 1098
+127.0.0.1 - - [04/Dec/2018:18:46:07 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/Dec/2018:18:46:15 +0530] "GET /InteractionMiddleware/WEB-INF/classes/com/coll/restcontroller/BlogRestController.java HTTP/1.1" 404 1183
+0:0:0:0:0:0:0:1 - - [04/Dec/2018:18:46:15 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [04/Dec/2018:18:47:10 +0530] "GET /InteractionMiddleware/ HTTP/1.1" 404 1100
+0:0:0:0:0:0:0:1 - - [04/Dec/2018:18:47:34 +0530] "GET /InteractionMiddleware/showAllBlogs HTTP/1.1" 404 1112

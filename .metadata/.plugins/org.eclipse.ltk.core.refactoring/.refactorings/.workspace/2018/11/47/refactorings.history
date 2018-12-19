@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;InteractionMiddleware&apos;" deleteContents="false" description="Delete resource &apos;InteractionMiddleware&apos;" element1="/InteractionMiddleware" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1543063857153"/>
+</session>

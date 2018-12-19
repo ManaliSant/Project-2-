@@ -1,0 +1,7 @@
+127.0.0.1 - - [05/Dec/2018:17:29:34 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:17:29:35 +0530] "GET /InteractionFrontEnd/ HTTP/1.1" 404 1098
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:17:29:35 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+127.0.0.1 - - [05/Dec/2018:17:31:55 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:17:31:55 +0530] "GET /InteractionFrontEnd/ HTTP/1.1" 200 2747
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:17:31:55 +0530] "GET /InteractionFrontEnd/RouteConfig.js HTTP/1.1" 404 1112
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:17:31:55 +0530] "GET /InteractionFrontEnd/RouteConfig.js HTTP/1.1" 404 1112

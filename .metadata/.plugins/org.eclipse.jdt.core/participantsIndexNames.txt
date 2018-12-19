@@ -1,0 +1,3 @@
+INDEX VERSION 1.130
+E:\InteractionProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\723070866.index
+\InteractionMiddleware\src\main\resources

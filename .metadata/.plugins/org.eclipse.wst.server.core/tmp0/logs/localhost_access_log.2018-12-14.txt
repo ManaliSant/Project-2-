@@ -1,0 +1,5 @@
+127.0.0.1 - - [14/Dec/2018:10:31:47 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [14/Dec/2018:10:31:48 +0530] "GET /InteractionFrontEnd/web/c_user/SignUp.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Dec/2018:10:31:49 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [14/Dec/2018:10:31:59 +0530] "GET /InteractionFrontEnd/web/c_user/SignUp.html?loginname=&password=&username=&emailid=&mobileno=&address= HTTP/1.1" 200 2224
+0:0:0:0:0:0:0:1 - - [14/Dec/2018:10:32:25 +0530] "GET /InteractionFrontEnd/web/c_user/SignUp.html?loginname=srfw34&password=t4wy6&username=u7yh5&emailid=reujh%40gmail.com&mobileno=trruj&address=tyik8up0 HTTP/1.1" 200 2224

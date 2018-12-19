@@ -1,0 +1,10 @@
+127.0.0.1 - - [10/Dec/2018:13:20:03 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [10/Dec/2018:13:20:04 +0530] "GET /InteractionFrontEnd/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Dec/2018:13:20:04 +0530] "GET /InteractionFrontEnd/web/c_blog/BlogController.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Dec/2018:13:20:04 +0530] "GET /InteractionFrontEnd/web/RouteConfig.js HTTP/1.1" 200 618
+0:0:0:0:0:0:0:1 - - [10/Dec/2018:13:20:04 +0530] "GET /InteractionFrontEnd/web/c_user/UserController.js HTTP/1.1" 200 1158
+0:0:0:0:0:0:0:1 - - [10/Dec/2018:13:20:09 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [10/Dec/2018:13:20:12 +0530] "GET /InteractionFrontEnd/web/c_blog/AddBlog.html HTTP/1.1" 200 160
+0:0:0:0:0:0:0:1 - - [10/Dec/2018:13:20:14 +0530] "GET /InteractionFrontEnd/web/c_user/LogIn.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Dec/2018:13:20:15 +0530] "GET /InteractionFrontEnd/web/c_user/SignUp.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Dec/2018:13:21:58 +0530] "GET /InteractionFrontEnd/web/c_user/ManageAllBlogs.html HTTP/1.1" 404 1136

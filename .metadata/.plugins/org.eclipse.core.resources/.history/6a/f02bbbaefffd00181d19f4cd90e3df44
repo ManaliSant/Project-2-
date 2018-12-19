@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container" ng-controller="BlogController">
+  <h2>Blog Information</h2>
+      
+  <table class="table table-bordered" >
+    <tbody>
+      <tr>
+        <td>Blog</td>
+        <td><input type="text" name="blogName" ng-model="blog.blogname"/></td>
+       
+      </tr>
+      <tr>
+        <td>Blog Content</td>
+        <td><textarea cols="40" rows="10" ng-model="blog.blogdesc"/></textarea></td>
+
+      </tr>
+      <tr>
+      <td colspan="2">
+			<center>
+		<input type="submit" value="Insert Blog" ng-click="addBlog()"/>
+			</center>
+		</td>
+	</tr>
+      
+    </tbody>
+  </table>
+
+  <table class="table">
+    <thead>
+      <tr>
+        
+        <th>Bolg name</th>
+        <th>Blog Content</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      </tr>
+	<tr ng-repeat="blog in blogdata">
+		<td>{{blog.blogname}}</td>
+		<td>{{blog.blogdesc}}</td>
+	</tr>
+    </tbody>
+  </table>
+  </div>
+
+
+</body>
+</html>

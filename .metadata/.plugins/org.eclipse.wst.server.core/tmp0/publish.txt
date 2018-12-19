@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Dec 18 15:06:44 IST 2018
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\mruser\\.m2\\repository\\org\\springframework\\spring-web\\5.1.0.RELEASE\\spring-web-5.1.0.RELEASE.jar=WEB-INF/lib/spring-web-5.1.0.RELEASE.jar
+org.eclipse.jst.j2ee.server\:InteractionBackEnd=WEB-INF/lib/InteractionBackEnd-0.0.1-SNAPSHOT.jar
